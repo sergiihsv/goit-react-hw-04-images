@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import propTypes from 'prop-types';
 import './Searchbar.css';
+import { ReactComponent as SearchIcon } from '../../icon/search.svg';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -34,7 +35,7 @@ export class Searchbar extends Component {
           autoComplete="off"
         >
           <button type="submit" className="SearchForm-button">
-            <span className="button-label">Search</span>
+            <SearchIcon />
           </button>
 
           <input
