@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './App.css';
-import { fetchImages, PER_PAGE } from '../components/servicesApi/Api';
+import { fetchImages, PER_PAGE } from '../servicesApi/Api';
 import { Searchbar } from './Searchbar/Searchbar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
